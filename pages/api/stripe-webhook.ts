@@ -1,4 +1,4 @@
-import { Prisma } from "@prisma/client";
+import prisma from "@/libs/prismadb";
 import { buffer } from "micro";
 import { NextApiRequest, NextApiResponse } from "next";
 import Stripe from "stripe";
