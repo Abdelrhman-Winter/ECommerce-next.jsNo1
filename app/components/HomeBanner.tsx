@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HomeBanner = () => {
   return (
-    <div className="relative bg-gradient-to-r from-[#FBFBF2] to-[#847577] mb-8">
+    <div className="relative bg-gradient-to-r from-[#ffffff] to-[#847577] mb-8">
       <div className="mx-auto px-8 py-12 flex flex-col gap-2 md:flex-row items-center justify-evenly">
         <div className="mb-8 md:mb-0 text-center">
           <h1 className=" text-4x1 md:text-6xl font-bold text-black mb-4">

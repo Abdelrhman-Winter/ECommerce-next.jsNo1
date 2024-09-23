@@ -7,7 +7,7 @@ const Login = async () => {
   const currentUser = await getCurrentUser();
 
   return (
-    <div className=" bg-[#FBFBF2]">
+    <div className=" bg-[#ffffff]">
       <Container>
         <FormWrap>
           <LoginForm currentUser={currentUser} />

@@ -21,7 +21,7 @@ const Admin = async () => {
   }
 
   return (
-    <div className="pt-8 bg-[#FBFBF2]">
+    <div className="pt-8 bg-[#ffffff]">
       <Container>
         <Summary products={products} orders={orders} users={users} />
         <div className="mt-4 mx-auto max-w-[1150px]">

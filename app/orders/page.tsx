@@ -16,7 +16,7 @@ const ManageOrders = async () => {
     return <NullData title="No orders yet...!" />;
   }
   return (
-    <div className="pt-8 bg-[#FBFBF2]">
+    <div className="pt-8 bg-[#ffffff]">
       <Container>
         <OrdersClient orders={orders} />
       </Container>

@@ -30,7 +30,7 @@ const Input: React.FC<InputProps> = ({
         {...register(id, { required })}
         placeholder=""
         type={type}
-        className={` peer w-full p-4 pt-6 outline-none bg-[#FBFBF2] font-light border-2 rounded-md transition disabled:opacity-70 disabled:cursor-not-allowed 
+        className={` peer w-full p-4 pt-6 outline-none bg-[#ffffff] font-light border-2 rounded-md transition disabled:opacity-70 disabled:cursor-not-allowed 
     ${errors[id] ? "border-rose-400" : "border-[#cfd2cd]"} 
     ${errors[id] ? "focus:border-rose-400" : "focus:border-[#cfd2cd]"}
     `}

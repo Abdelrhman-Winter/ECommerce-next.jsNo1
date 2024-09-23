@@ -30,7 +30,7 @@ export default async function Home({ searchParams }: HomeProps) {
   const shuffledProducts = shuffle(products);
 
   return (
-    <div className="p-8 bg-[#FBFBF2]">
+    <div className="p-8 bg-[#ffffff]">
       <Container>
         <div>
           <HomeBanner />
