@@ -22,7 +22,7 @@ interface ManageOrdersClientProps {
   orders: ExtendedOrder[];
 }
 type ExtendedOrder = Order & {
-  user: User;
+  user: User | null;
 };
 
 const ManageOrdersClient: React.FC<ManageOrdersClientProps> = ({ orders }) => {
