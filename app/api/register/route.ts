@@ -13,6 +13,7 @@ export async function POST(request: Request) {
       name,
       email,
       hashedPassword,
+      role: "USER",
     },
   });
 
